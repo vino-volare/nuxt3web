@@ -1,5 +1,10 @@
 <template>
-  <div>
-    hoge
-  </div>
+ <div>
+  <NuxtPage />
+ </div>
 </template>
+<style>
+*{
+  margin: 0;
+}
+</style>
