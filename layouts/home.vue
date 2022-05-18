@@ -1,20 +1,10 @@
 <template>
-    <header>
-        <h1>Vino Tokino</h1>
-    </header>
-    <div>
-        <slot />
-    </div>
-    <footer>
-        <p>footer</p>
-    </footer>
+    <TheHeader />
+    <main><slot /></main>
+    <TheFooter />
 </template>
-<style lang="scss">
-    header{
-        background-color: gray;
-        width: 100vw;
-    }
-    h1{
-        size: 3rem;
+<style scoped>
+    main{
+        height: 100px;
     }
 </style>
