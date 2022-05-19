@@ -6,7 +6,7 @@
                 <NuxtLink to="/contact" class="menu">contact</NuxtLink>
             </div>
             <NuxtLink to="/">
-                <h1>Vino Tokino</h1>
+                <img src="/img/vino_volare_noword_final.svg" />
             </NuxtLink>
         </nav>
     </header>
@@ -18,20 +18,23 @@
 
 <style scoped>
     nav{
+        position: absolute;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         height: 100px;
+        width: 100vw;
+    }
+    img{
+        padding-left: 8px;
+        max-width: 50%;
     }
     .menu{
         color: inherit;
         text-decoration: none;
         margin: 1rem;
-    }
-    header{
-        background-color: gray;
-        height: 300px;
+        font-family: 'F1Regular';
     }
     h1{
         size: 3rem;
