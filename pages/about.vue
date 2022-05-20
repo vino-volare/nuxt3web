@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout name="article">
-        about
+        <h1>Coming Soon</h1>
     </NuxtLayout>
 </template>
 
@@ -8,5 +8,8 @@
 </script>
 
 <style scoped>
-
+h1{
+    text-align: center;
+    font-family: 'F1Bold';
+}
 </style>

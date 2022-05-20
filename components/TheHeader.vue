@@ -1,15 +1,13 @@
 <template>
-    <header>
-        <nav>
-            <div>
-                <NuxtLink to="/about" class="menu">about</NuxtLink>
-                <NuxtLink to="/contact" class="menu">contact</NuxtLink>
-            </div>
-            <NuxtLink to="/">
-                <img src="/img/vino_volare_noword_final.svg" />
-            </NuxtLink>
-        </nav>
-    </header>
+    <nav>
+        <div>
+            <NuxtLink to="/about" class="menu">about</NuxtLink>
+            <NuxtLink to="/contact" class="menu">contact</NuxtLink>
+        </div>
+        <NuxtLink class="home" to="/">
+            <img src="/img/vino_volare_noword_final.svg" />
+        </NuxtLink>
+    </nav>
 </template>
 
 <script setup lang="ts">
@@ -17,6 +15,11 @@
 </script>
 
 <style scoped>
+    .home{
+        width: 15vw;
+        padding-left: 8px;
+        max-width: 80px;
+    }
     nav{
         position: absolute;
         display: flex;
@@ -27,8 +30,7 @@
         width: 100vw;
     }
     img{
-        padding-left: 8px;
-        max-width: 50%;
+        max-width: 100%;
     }
     .menu{
         color: inherit;

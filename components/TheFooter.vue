@@ -1,6 +1,8 @@
 <template>
     <footer>
-        <p>Footer</p>
+        <NuxtLink class="link" to="/">
+            <small>&copy; 2022 TokinoVino</small>
+        </NuxtLink>
     </footer>
 </template>
 
@@ -9,8 +11,19 @@
 </script>
 
 <style scoped>
+    small{
+        padding-top: 20px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-family: 'F1Regular';
+    }
     footer{
-        background-color: gray;
+        border-top: 1px rgb(173, 173, 173) solid;
         height: 100px;
+    }
+    .link{
+        color: inherit;
+        text-decoration: none;
     }
 </style>
