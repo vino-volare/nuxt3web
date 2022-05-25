@@ -23,6 +23,6 @@ useHead({
     }
     header{
         height: 100px;
-        background-color: rgb(199, 199, 199);
+        background-color: rgb(0, 0, 0);
     }
 </style>

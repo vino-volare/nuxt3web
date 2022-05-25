@@ -3,6 +3,7 @@
     <Head>
       <Title>{{ title }}</Title>
       <Meta name="description" :content="title" />
+      <Link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     </Head>
     <NuxtPage />
   </Html>

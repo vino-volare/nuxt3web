@@ -1,5 +1,5 @@
 <template>
-    <NuxtLayout name="article">
+    <NuxtLayout name="articles">
         <h1>Coming Soon</h1>
     </NuxtLayout>
 </template>

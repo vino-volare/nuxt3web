@@ -19,7 +19,9 @@
         font-family: 'F1Regular';
     }
     footer{
+        color: white;
         border-top: 1px rgb(173, 173, 173) solid;
+        background-color: black;
         height: 100px;
     }
     .link{

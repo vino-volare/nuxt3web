@@ -39,7 +39,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        backdrop-filter: blur(8px);
+        background-image: linear-gradient(0deg, transparent 0%, rgb(0, 0, 0) 100%);
+        backdrop-filter: blur(6px);
     }
     header img{
         width: 100%;

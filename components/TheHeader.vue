@@ -5,7 +5,7 @@
             <NuxtLink to="/contact" class="menu">contact</NuxtLink>
         </div>
         <NuxtLink class="home" to="/">
-            <img src="/img/vino_volare_noword_final.svg" />
+            <img src="/img/TokinoVino_white.svg" />
         </NuxtLink>
     </nav>
 </template>
@@ -33,7 +33,7 @@
         max-width: 100%;
     }
     .menu{
-        color: inherit;
+        color: white;
         text-decoration: none;
         margin: 1rem;
         font-family: 'F1Regular';
