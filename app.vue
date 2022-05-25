@@ -3,7 +3,8 @@
     <Head>
       <Title>{{ title }}</Title>
       <Meta name="description" :content="title" />
-      <Link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      <Link rel="apple-touch-icon" type="image/png" href="https://res.cloudinary.com/tokino/image/upload/f_auto,q_auto/v1653465095/website/static/apple-touch-icon-180x180_z7uaza.png" />
+      <Link rel="icon" type="image/png" href="https://res.cloudinary.com/tokino/image/upload/f_auto,q_auto/v1653465182/website/static/icon-192x192_oudco0.png" />
     </Head>
     <NuxtPage />
   </Html>
@@ -20,5 +21,6 @@ const title = ref('Tokino Vino')
 }
 html{
   font: 400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: white;
 }
 </style>

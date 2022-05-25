@@ -5,7 +5,7 @@
             <NuxtLink to="/contact" class="menu">contact</NuxtLink>
         </div>
         <NuxtLink class="home" to="/">
-            <img src="/img/TokinoVino_white.svg" />
+            <img src="/img/TokinoVino_white.svg" loading="lazy" />
         </NuxtLink>
     </nav>
 </template>
@@ -16,9 +16,12 @@
 
 <style scoped>
     .home{
-        width: 15vw;
+        height: 100%;
         padding-left: 8px;
-        max-width: 80px;
+        max-width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     nav{
         position: absolute;
@@ -30,10 +33,11 @@
         width: 100vw;
     }
     img{
+        max-height: 100%;
         max-width: 100%;
     }
     .menu{
-        color: white;
+        color: inherit;
         text-decoration: none;
         margin: 1rem;
         font-family: 'F1Regular';

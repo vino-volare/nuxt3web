@@ -20,7 +20,7 @@
     }
     footer{
         color: white;
-        border-top: 1px rgb(173, 173, 173) solid;
+        border-top: 1px rgb(219, 219, 219) solid;
         background-color: black;
         height: 100px;
     }

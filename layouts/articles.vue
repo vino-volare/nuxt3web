@@ -20,6 +20,7 @@ useHead({
     }
     main{
         flex: 1;
+        background-color: rgb(32, 32, 32);
     }
     header{
         height: 100px;
